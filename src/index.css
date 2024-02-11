@@ -1,4 +1,5 @@
 @import "./styles/navLg.css";
+@import "./styles/navSm.css";
 
 @tailwind base;
 @tailwind components;
