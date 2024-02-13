@@ -7,7 +7,7 @@ const NavSm = () => {
       <div className="nav-sm-container">
         <div className="nav-logo">
           <picture>
-            <img src={smLogo} alt="" className="w-3/4" />
+            <img src={smLogo} alt="" className="w-3/12 md:w-3/6" />
           </picture>
         </div>
         {/* drawer */}
