@@ -4,7 +4,7 @@ import bgImg2 from "../../../src/assets/Banner/banner-2.jpg";
 import bgImg3 from "../../../src/assets/Banner/banner-3.jpg";
 const Banner = () => {
   return (
-    <>
+    <div className="relative bg-[#0E1618]">
       <div className="carousel w-full">
         <div id="item1" className="carousel-item-wrapper">
           <div className="banner-img-overlay"></div>
@@ -70,18 +70,18 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full py-2 gap-2">
-        <a href="#item1" className="btn btn-xs">
+      <div className="flex justify-center w-full gap-6 absolute bottom-5">
+        <a href="#item1" className="btn btn-outline text-[#C3A981] btn-xs">
           1
         </a>
-        <a href="#item2" className="btn btn-xs">
+        <a href="#item2" className="btn btn-outline text-[#C3A981] btn-xs">
           2
         </a>
-        <a href="#item3" className="btn btn-xs">
+        <a href="#item3" className="btn btn-outline text-[#C3A981] btn-xs">
           3
         </a>
       </div>
-    </>
+    </div>
   );
 };
 
