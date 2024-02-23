@@ -1,7 +1,7 @@
 @import "./styles/navLg.css";
 @import "./styles/navSm.css";
 @import "./styles/banner.css";
-@import "./styles/aboutRestaurant.css";
+@import "./styles/details.css";
 
 @tailwind base;
 @tailwind components;

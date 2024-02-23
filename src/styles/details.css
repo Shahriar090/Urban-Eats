@@ -1,0 +1,23 @@
+@layer base {
+  .details-parent {
+    @apply px-4 md:px-8 lg:px-16 pt-5 md:pt-8 lg:pt-16 flex flex-col lg:flex-row items-center gap-6;
+  }
+  .details-texts-container {
+    @apply space-y-6 w-full lg:w-3/6  mx-auto;
+  }
+  .details-sub-head {
+    @apply text-xl lg:text-3xl text-[#C3A981] font-sans;
+  }
+  .details-main-head {
+    @apply text-2xl lg:text-5xl font-semibold font-serif text-[#DFE0E0] tracking-wide;
+  }
+  .details-description-1 {
+    @apply text-[#C3A981] font-serif text-lg max-w-[70ch];
+  }
+  .details-description-2 {
+    @apply text-[#DFE0E0] font-sans text-lg max-w-[70ch];
+  }
+  .details-btn {
+    @apply px-4 py-2 md:px-6 md:py-3 lg:px-6 lg:py-3 text-[#DFE0E0] bg-[#C3A981] hover:bg-[#DFE0E0] hover:text-[#C3A981] transition-all duration-500;
+  }
+}
