@@ -70,7 +70,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end lg:justify-center w-full gap-6 absolute bottom-5 sm:right-3">
+      <div className="flex justify-end lg:justify-center w-full gap-6 absolute bottom-4 right-3">
         <a href="#item1" className="btn btn-outline text-[#C3A981] btn-xs">
           1
         </a>
