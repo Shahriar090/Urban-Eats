@@ -1,0 +1,17 @@
+@layer base {
+  .section-wrapper {
+    @apply mt-6 md:mt-10 lg:mt-28 bg-cover p-20;
+  }
+  .our-services-container {
+    @apply flex flex-col lg:flex-row justify-center gap-20 items-center;
+  }
+  .icon-wrapper {
+    @apply bg-[#1c262a] w-36 h-36 flex justify-center items-center rounded-full p-4 mx-auto hover:border hover:border-[#C3A981];
+  }
+  .service-heading {
+    @apply text-xl lg:text-2xl text-[#DFE0E0] hover:text-[#C3A981] font-semibold font-serif;
+  }
+  .service-des {
+    @apply text-[#DFE0E0] max-w-[30ch] h-10;
+  }
+}
