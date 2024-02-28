@@ -1,6 +1,6 @@
 @layer base {
   .section-wrapper {
-    @apply mt-6 md:mt-10 lg:mt-28 bg-cover p-20 relative;
+    @apply px-4 md:px-10 lg:px-20 mt-8 md:mt-14 lg:mt-28 bg-cover p-20 relative;
   }
   .our-services-container {
     @apply flex flex-col lg:flex-row justify-center gap-20 items-center relative z-10;

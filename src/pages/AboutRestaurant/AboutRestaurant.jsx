@@ -4,7 +4,7 @@ import TimeDetails from "./TimeDetails";
 
 const AboutRestaurant = () => {
   return (
-    <div className="bg-[#0E1618]">
+    <div>
       <Details />
       <TimeDetails />
     </div>
