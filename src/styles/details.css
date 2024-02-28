@@ -3,7 +3,7 @@
     @apply px-4 md:px-8 lg:px-16 pt-5 md:pt-8 lg:pt-16 flex flex-col lg:flex-row items-center gap-6;
   }
   .details-texts-container {
-    @apply space-y-6 w-full lg:w-3/6  mx-auto;
+    @apply space-y-4 w-full lg:w-3/6  mx-auto;
   }
   .details-sub-head {
     @apply text-xl lg:text-3xl text-[#C3A981] font-sans;

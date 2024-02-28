@@ -1,4 +1,3 @@
-import React from "react";
 import bgImg1 from "../../../src/assets/Banner/banner-1.jpg";
 import bgImg2 from "../../../src/assets/Banner/banner-2.jpg";
 import bgImg3 from "../../../src/assets/Banner/banner-3.jpg";
@@ -70,7 +69,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end lg:justify-center w-full gap-6 absolute bottom-4 right-3">
+      <div className="flex justify-end lg:justify-center w-full gap-3 absolute bottom-4 right-3">
         <a href="#item1" className="btn btn-outline text-[#C3A981] btn-xs">
           1
         </a>

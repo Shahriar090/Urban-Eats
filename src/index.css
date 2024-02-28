@@ -9,13 +9,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "PT Sans", sans-serif;
-  background-color: #0e1618;
-}
-
 html {
   scroll-behavior: smooth;
 }
