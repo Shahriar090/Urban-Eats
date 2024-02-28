@@ -69,14 +69,15 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-end lg:justify-center w-full gap-3 absolute bottom-4 right-3">
-        <a href="#item1" className="btn btn-outline text-[#C3A981] btn-xs">
+      {/* slider buttons */}
+      <div className="slider-btns-container">
+        <a href="#item1" className="slider-btn">
           1
         </a>
-        <a href="#item2" className="btn btn-outline text-[#C3A981] btn-xs">
+        <a href="#item2" className="slider-btn">
           2
         </a>
-        <a href="#item3" className="btn btn-outline text-[#C3A981] btn-xs">
+        <a href="#item3" className="slider-btn">
           3
         </a>
       </div>

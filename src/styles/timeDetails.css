@@ -6,15 +6,15 @@
     @apply space-y-5 mx-auto;
   }
   .time-texts-heading {
-    @apply text-3xl lg:text-5xl font-serif font-semibold text-[#DFE0E0];
+    @apply text-3xl lg:text-5xl font-semibold text-[#DFE0E0];
   }
   .time-texts-des {
-    @apply text-[#C3A981] font-sans text-lg max-w-[50ch];
+    @apply text-[#C3A981] italic text-lg max-w-[50ch];
   }
   .schedule-container {
     @apply text-lg text-[#DFE0E0] space-y-2;
   }
   .schedule-heading {
-    @apply text-[#C3A981] font-semibold font-serif text-xl;
+    @apply text-[#C3A981] font-semibold  text-xl;
   }
 }

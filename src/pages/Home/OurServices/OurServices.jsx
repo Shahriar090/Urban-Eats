@@ -7,10 +7,12 @@ import winesIcon from "../../../assets/about-us/wines.png";
 
 const OurServices = () => {
   return (
-    <section
-      className="section-wrapper"
-      style={{ backgroundImage: `url(${bgImg})` }}
-    >
+    <section className="section-wrapper">
+      <div
+        className="absolute inset-0 bg-black opacity-50"
+        style={{ backgroundImage: `url(${bgImg})` }}
+      ></div>
+
       <div className="our-services-container ">
         {/* div-1 */}
         <div className="food space-y-5 text-center">
