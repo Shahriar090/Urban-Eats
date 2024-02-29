@@ -1,0 +1,17 @@
+@layer base {
+  .event-images-container {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-0 mt-20;
+  }
+  .overlay-div {
+    @apply absolute w-full h-full bg-black flex items-center justify-center -bottom-60 group-hover:bottom-0 opacity-15 group-hover:opacity-80 transition-all duration-700;
+  }
+  .event-img-text-container {
+    @apply text-center  text-[#DFE0E0] space-y-2;
+  }
+  .event-icon {
+    @apply opacity-0 group-hover:opacity-60 transition-all duration-700;
+  }
+  .event-head {
+    @apply text-2xl lg:text-4xl tracking-wide uppercase;
+  }
+}
