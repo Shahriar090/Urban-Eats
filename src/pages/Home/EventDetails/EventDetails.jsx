@@ -1,12 +1,13 @@
 import React from "react";
 import Container from "../../../shared/Container";
+import EventImages from "./EventImages";
 
 const EventDetails = () => {
   return (
     <Container>
       <div className="text-center space-y-5">
         <h3 className="text-[#C3A981] italic text-lg">Private Event</h3>
-        <h1 className="text-[#DFE0E0] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase">
+        <h1 className="text-[#DFE0E0] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wide">
           Perfect Place For Events
         </h1>
         <p className="text-[#DFE0E0] max-w-[60ch] mx-auto">
@@ -19,6 +20,8 @@ const EventDetails = () => {
           Get Started For Your Event
         </button>
       </div>
+      {/* event details with images */}
+      <EventImages />
     </Container>
   );
 };
