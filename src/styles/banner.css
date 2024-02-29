@@ -1,6 +1,6 @@
 @layer base {
   .carousel-item-wrapper {
-    @apply carousel-item w-full h-[400px] md:h-full lg:h-full relative;
+    @apply carousel-item w-full h-[400px] sm:h-full md:h-full lg:h-full relative;
   }
   .banner-img-overlay {
     @apply absolute inset-0 bg-black opacity-60;
