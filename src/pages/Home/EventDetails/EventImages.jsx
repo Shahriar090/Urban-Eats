@@ -16,9 +16,6 @@ const EventImages = () => {
           {/* over lay div */}
           <div className="overlay-div">
             <div className="event-img-text-container">
-              <div className="event-icon">
-                <h1>ICON</h1>
-              </div>
               <h1 className="event-head">Meeting</h1>
               <p className="text-[#DFE0E0]">
                 We are extremely happy to provide refined cater- ing services
@@ -38,10 +35,7 @@ const EventImages = () => {
           {/* over lay div */}
           <div className="overlay-div">
             <div className="event-img-text-container">
-              <div className="event-icon">
-                <h1>ICON</h1>
-              </div>
-              <h1 className="event-head">Meeting</h1>
+              <h1 className="event-head">Wedding</h1>
               <p className="text-[#DFE0E0]">
                 We are extremely happy to provide refined cater- ing services
                 for your special events! By choosing us, you get a guarantee
@@ -60,10 +54,7 @@ const EventImages = () => {
           {/* over lay div */}
           <div className="overlay-div">
             <div className="event-img-text-container">
-              <div className="event-icon">
-                <h1>ICON</h1>
-              </div>
-              <h1 className="event-head">Meeting</h1>
+              <h1 className="event-head">Private Room</h1>
               <p className="text-[#DFE0E0]">
                 We are extremely happy to provide refined cater- ing services
                 for your special events! By choosing us, you get a guarantee
@@ -82,10 +73,7 @@ const EventImages = () => {
           {/* over lay div */}
           <div className="overlay-div">
             <div className="event-img-text-container">
-              <div className="event-icon">
-                <h1>ICON</h1>
-              </div>
-              <h1 className="event-head">Meeting</h1>
+              <h1 className="event-head">Birthday Party</h1>
               <p className="text-[#DFE0E0]">
                 We are extremely happy to provide refined cater- ing services
                 for your special events! By choosing us, you get a guarantee
