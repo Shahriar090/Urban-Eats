@@ -70,14 +70,14 @@ const Banner = () => {
         </div>
       </div>
       {/* slider buttons */}
-      <div className="slider-btns-container">
-        <a href="#item1" className="slider-btn">
+      <div className="slider-btn-container">
+        <a href="#" className="slider-btn">
           1
         </a>
-        <a href="#item2" className="slider-btn">
+        <a href="#" className="slider-btn">
           2
         </a>
-        <a href="#item3" className="slider-btn">
+        <a href="#" className="slider-btn">
           3
         </a>
       </div>

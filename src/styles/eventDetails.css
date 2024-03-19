@@ -1,12 +1,12 @@
 @layer base {
   .event-details-sub-head {
-    @apply text-[#C3A981] italic text-lg;
+    @apply text-[#C3A981] italic text-lg font-serif;
   }
   .event-details-main-head {
-    @apply text-[#DFE0E0] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wide;
+    @apply text-[#DFE0E0] text-2xl sm:text-3xl md:text-4xl lg:text-5xl uppercase tracking-wide font-sans;
   }
   .event-details-des {
-    @apply text-[#DFE0E0] max-w-[60ch] mx-auto;
+    @apply text-[#DFE0E0] max-w-[80ch] mx-auto font-sans text-lg italic;
   }
   .event-details-btn {
     @apply px-4 py-2  md:px-6 md:py-3 lg:px-6 lg:py-3 text-[#DFE0E0] bg-[#C3A981] hover:bg-[#DFE0E0] hover:text-[#C3A981] transition-all duration-500;

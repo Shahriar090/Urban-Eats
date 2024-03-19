@@ -1,20 +1,20 @@
 @layer base {
   .time-details-container {
-    @apply flex flex-col-reverse lg:flex-row lg:items-center lg:justify-center gap-6 md:gap-12 lg:gap-20;
+    @apply flex flex-col-reverse lg:flex-row lg:items-center lg:justify-between gap-6 md:gap-12;
   }
   .time-texts {
     @apply space-y-4;
   }
   .time-texts-heading {
-    @apply text-3xl lg:text-5xl font-semibold text-[#DFE0E0];
+    @apply text-3xl lg:text-5xl font-semibold font-sans text-[#DFE0E0];
   }
   .time-texts-des {
-    @apply text-[#C3A981] italic text-lg max-w-[50ch];
+    @apply text-[#C3A981] italic text-lg max-w-[50ch] font-sans;
   }
   .schedule-container {
     @apply text-lg text-[#DFE0E0] space-y-2;
   }
   .schedule-heading {
-    @apply text-[#C3A981] font-semibold  text-xl;
+    @apply text-[#C3A981] font-semibold  text-xl font-sans;
   }
 }

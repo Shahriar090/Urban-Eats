@@ -7,7 +7,7 @@ const TimeDetails = () => {
       <div className="time-details-container">
         <div className="time-img">
           <picture>
-            <img src={timeImg} alt="" className="w-full" />
+            <img src={timeImg} alt="" className="w-ful" />
           </picture>
         </div>
         <div className="time-texts">

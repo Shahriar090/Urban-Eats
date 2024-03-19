@@ -3,15 +3,15 @@
     @apply px-4 md:px-10 lg:px-20 mt-8 md:mt-14 lg:mt-28 bg-cover p-20 relative;
   }
   .our-services-container {
-    @apply flex flex-col lg:flex-row justify-center gap-20 items-center relative z-10;
+    @apply flex flex-col lg:flex-row justify-center gap-16 items-center relative z-10;
   }
   .icon-wrapper {
-    @apply bg-[#1c262a] w-36 h-36 flex justify-center items-center rounded-full p-4 mx-auto hover:border hover:border-[#C3A981];
+    @apply bg-[#1c262a] w-36 h-36 flex justify-center items-center rounded-full p-4 mx-auto hover:ring-2 hover:ring-[#C3A981] transition-all duration-500 cursor-pointer;
   }
   .service-heading {
-    @apply text-xl lg:text-2xl text-[#DFE0E0] hover:text-[#C3A981]  font-semibold;
+    @apply text-xl lg:text-2xl text-[#DFE0E0] hover:text-[#C3A981]  font-semibold font-sans transition-all duration-500 cursor-pointer;
   }
   .service-des {
-    @apply text-[#DFE0E0] max-w-[30ch] h-10 italic;
+    @apply text-[#DFE0E0] max-w-[30ch] h-10 italic font-sans;
   }
 }
