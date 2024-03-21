@@ -9,7 +9,7 @@ const NavLg = () => {
   return (
     <nav className="bg-[#0E1618] w-full h-auto">
       {/* upper nav */}
-      <div className="upp-nav-container py-6">
+      <div className="upp-nav-container py-8">
         <Location />
         <Contact />
         <Phone />
@@ -20,7 +20,7 @@ const NavLg = () => {
       </div>
 
       {/* lower nav */}
-      <div className="lower-nav-container ">
+      <div className="lower-nav-container">
         <div className="address  p-3 border-r-2 border-[#C3A981]">
           <LocationModal />
         </div>

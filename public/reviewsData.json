@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "userName": "John Doe",
+    "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcIUkIZCuA8f47EoxBKBjkc-WeB-IZk3i5p_qQaGTfHffmFTY-7kEDFMcRDOIESFEkZw&usqp=CAU",
+    "review": "Great food and excellent service!",
+    "stars": 5
+  },
+  {
+    "id": 2,
+    "userName": "Jane Smith",
+    "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecKAtmuB2rQsLnwCmimGaquKAydzVGrv6QYVzXjIYVNtxUHZZ-peFJz0iLRm02h5a45U&usqp=CAU",
+    "review": "The ambiance was wonderful, and the dishes were delicious.",
+    "stars": 4.3
+  },
+  {
+    "id": 3,
+    "userName": "David Johnson",
+    "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsIlzGp1laQheiAAjrbJJ3pasHLjMBnIUEZg&usqp=CAU",
+    "review": "I had a pleasant experience dining here. Would definitely recommend!",
+    "stars": 5
+  },
+  {
+    "id": 4,
+    "userName": "Emily Brown",
+    "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLK66w-Z84L5WB4MiLdk53RmPDmUEBxuL_IrdscmvPG4Sl1RPuKMxstlzZ77hmKQ147R4&usqp=CAU",
+    "review": "The food was okay, but the service could have been better.",
+    "stars": 3.5
+  },
+  {
+    "id": 5,
+    "userName": "Michael Wilson",
+    "userImg": "https://www.logiconme.com/assets/img-temp/400x450/img5.jpg",
+    "review": "Disappointed with the quality of food. Needs improvement.",
+    "stars": 2.3
+  }
+]
