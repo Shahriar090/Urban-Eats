@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "userName": "John Doe",
+    "userName": "Jimmy Robertson",
     "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWcIUkIZCuA8f47EoxBKBjkc-WeB-IZk3i5p_qQaGTfHffmFTY-7kEDFMcRDOIESFEkZw&usqp=CAU",
-    "review": "Great food and excellent service!",
+    "review": "Great food and excellent service! We particularly enjoyed the pasta dishes and the attentive waitstaff.",
     "stars": 5
   },
   {
     "id": 2,
-    "userName": "Jane Smith",
+    "userName": "Liam Smith",
     "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecKAtmuB2rQsLnwCmimGaquKAydzVGrv6QYVzXjIYVNtxUHZZ-peFJz0iLRm02h5a45U&usqp=CAU",
-    "review": "The ambiance was wonderful, and the dishes were delicious.",
+    "review": "The ambiance was wonderful, and the dishes were delicious. We especially loved the seafood options and the cozy atmosphere.",
     "stars": 4.3
   },
   {
     "id": 3,
     "userName": "David Johnson",
     "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsIlzGp1laQheiAAjrbJJ3pasHLjMBnIUEZg&usqp=CAU",
-    "review": "I had a pleasant experience dining here. Would definitely recommend!",
+    "review": "I had a pleasant experience dining here. Would definitely recommend! The desserts were a highlight for us, and the service was impeccable.",
     "stars": 5
   },
   {
     "id": 4,
     "userName": "Emily Brown",
     "userImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLK66w-Z84L5WB4MiLdk53RmPDmUEBxuL_IrdscmvPG4Sl1RPuKMxstlzZ77hmKQ147R4&usqp=CAU",
-    "review": "The food was okay, but the service could have been better.",
+    "review": "The food was okay, but the service could have been better. We felt that the wait times were a bit long, but the flavors of the dishes were decent.",
     "stars": 3.5
   },
   {
     "id": 5,
     "userName": "Michael Wilson",
     "userImg": "https://www.logiconme.com/assets/img-temp/400x450/img5.jpg",
-    "review": "Disappointed with the quality of food. Needs improvement.",
+    "review": "Disappointed with the quality of food. Needs improvement. The portions were smaller than expected, and some dishes were underseasoned.",
     "stars": 2.3
   }
 ]
