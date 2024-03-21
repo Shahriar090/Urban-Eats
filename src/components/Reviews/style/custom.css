@@ -1,0 +1,22 @@
+/* styles.css */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #c3a981;
+  position: absolute;
+  bottom: 10px;
+}
+
+.swiper-button-prev {
+  left: 0;
+  opacity: 0.2;
+}
+
+.swiper-button-next {
+  right: 0;
+  opacity: 0.2;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: 0.5;
+}

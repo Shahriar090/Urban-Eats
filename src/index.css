@@ -6,6 +6,7 @@
 @import "./styles/ourServices.css";
 @import "./styles/eventDetails.css";
 @import "./styles/eventImages.css";
+@import "./styles/reviews.css";
 
 @tailwind base;
 @tailwind components;
