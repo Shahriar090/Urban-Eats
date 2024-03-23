@@ -9,9 +9,9 @@
     @apply bg-[#1c262a] w-36 h-36 flex justify-center items-center rounded-full p-4 mx-auto hover:ring-2 hover:ring-[#C3A981] transition-all duration-500 cursor-pointer;
   }
   .service-heading {
-    @apply text-xl lg:text-2xl text-[#DFE0E0] hover:text-[#C3A981]  font-semibold font-sans transition-all duration-500 cursor-pointer;
+    @apply text-xl  text-[#C3A981]  font-semibold uppercase transition-all duration-500 cursor-pointer;
   }
   .service-des {
-    @apply text-[#DFE0E0] max-w-[30ch] h-10 italic font-sans;
+    @apply text-[#DFE0E0] max-w-[30ch] h-10;
   }
 }

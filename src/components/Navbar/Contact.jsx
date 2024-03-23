@@ -9,8 +9,8 @@ const Contact = () => {
         </h1>
       </div>
       <div className="flex flex-col">
-        <p className="text-[#C3A981]">Email Contact</p>
-        <p>Basilicorestaurant@gmail.com</p>
+        <p className="text-[#C3A981] text-lg font-medium">Email Contact</p>
+        <p className="text-[#DFE0E0]">Basilicorestaurant@gmail.com</p>
       </div>
     </div>
   );

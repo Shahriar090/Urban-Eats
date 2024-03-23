@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavOptions = () => {
   return (
-    <ul className="flex space-x-16 items-center">
+    <ul className="flex space-x-16 items-center text-lg uppercase">
       <li>
         <NavLink>Home</NavLink>
       </li>

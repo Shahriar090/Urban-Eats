@@ -43,7 +43,7 @@ const Reviews = () => {
   }
   return (
     <Container>
-      <section className="mb-20">
+      <section className="mb-14">
         <h1 className="rev-head">Testimonials</h1>
         <p className="rev-sub-head">Customer Reviews</p>
       </section>
@@ -66,7 +66,9 @@ const Reviews = () => {
                     </h1>
                   </div>
                   <Star stars={review.stars} />
-                  <p className="text-[#C3A981] ">- - {review.userName} - -</p>
+                  <p className="text-[#C3A981] uppercase">
+                    - - {review.userName} - -
+                  </p>
                 </div>
               </SwiperSlide>
             ))}

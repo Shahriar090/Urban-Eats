@@ -15,7 +15,7 @@ const OurServices = () => {
 
       <div className="our-services-container ">
         {/* div-1 */}
-        <div className="food space-y-5 text-center">
+        <div className="food space-y-4 text-center">
           <div className="icon-wrapper">
             <img src={foodIcon} alt="" />
           </div>
@@ -26,7 +26,7 @@ const OurServices = () => {
           </p>
         </div>
         {/* div-2 */}
-        <div className="chef space-y-5 text-center">
+        <div className="chef space-y-4 text-center">
           <div className="icon-wrapper">
             <img src={chefIcon} alt="" />
           </div>
@@ -37,7 +37,7 @@ const OurServices = () => {
           </p>
         </div>
         {/* div-3 */}
-        <div className="music space-y-5 text-center">
+        <div className="music space-y-4 text-center">
           {" "}
           <div className="icon-wrapper">
             <img src={musicIcon} alt="" />
@@ -49,7 +49,7 @@ const OurServices = () => {
           </p>
         </div>
         {/* div-4 */}
-        <div className="wines space-y-5 text-center">
+        <div className="wines space-y-4 text-center">
           <div className="icon-wrapper">
             <img src={winesIcon} alt="" />
           </div>

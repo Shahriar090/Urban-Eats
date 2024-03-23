@@ -1,6 +1,6 @@
 @layer base {
   .carousel-item-wrapper {
-    @apply carousel-item w-full h-[400px] sm:h-screen relative;
+    @apply carousel-item w-full h-[500px] sm:h-screen relative;
   }
   .banner-img-overlay {
     @apply absolute inset-0 bg-black opacity-60;
@@ -12,13 +12,13 @@
     @apply flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-6 px-3;
   }
   .banner-sub-heading {
-    @apply text-[#C3A981] text-lg md:text-xl lg:text-2xl font-medium italic font-serif;
+    @apply text-[#C3A981] text-lg md:text-xl lg:text-2xl font-medium;
   }
   .banner-heading {
-    @apply text-2xl md:text-4xl lg:text-5xl text-[#DFE0E0] uppercase font-semibold font-sans text-center;
+    @apply text-2xl md:text-4xl lg:text-6xl text-[#DFE0E0] uppercase font-semibold tracking-wider text-center;
   }
   .banner-description {
-    @apply max-w-[50ch] md:max-w-[50ch] lg:max-w-[60ch] text-[#DFE0E0] text-sm lg:text-lg text-center italic font-semibold font-sans;
+    @apply max-w-[50ch] md:max-w-[50ch] lg:max-w-[60ch] text-[#DFE0E0] text-sm lg:text-lg text-center tracking-wider;
   }
   .banner-btn {
     @apply px-4 py-2  md:px-6 md:py-3 lg:px-6 lg:py-3 text-[#DFE0E0] bg-[#C3A981] hover:bg-[#DFE0E0] hover:text-[#C3A981] transition-all duration-500;

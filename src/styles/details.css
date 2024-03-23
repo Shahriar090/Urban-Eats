@@ -6,16 +6,16 @@
     @apply space-y-4 w-full lg:w-3/6;
   }
   .details-sub-head {
-    @apply text-xl lg:text-3xl text-[#C3A981] font-medium italic font-serif;
+    @apply text-xl lg:text-3xl text-[#C3A981] font-medium;
   }
   .details-main-head {
-    @apply text-2xl lg:text-5xl text-[#DFE0E0] tracking-wide font-semibold font-sans;
+    @apply text-2xl lg:text-5xl text-[#DFE0E0] tracking-wide font-semibold uppercase;
   }
   .details-description-1 {
-    @apply text-[#C3A981] text-lg max-w-[70ch] font-semibold italic font-sans;
+    @apply text-[#C3A981] text-lg max-w-[70ch];
   }
   .details-description-2 {
-    @apply text-[#DFE0E0]  text-lg  max-w-[70ch] font-semibold font-sans;
+    @apply text-[#DFE0E0]  text-lg  max-w-[70ch] font-medium;
   }
   .details-btn {
     @apply px-4 py-2 md:px-6 md:py-3 lg:px-6 lg:py-3 text-[#DFE0E0] bg-[#C3A981] hover:bg-[#DFE0E0] hover:text-[#C3A981] transition-all duration-500;

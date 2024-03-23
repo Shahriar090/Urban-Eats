@@ -9,8 +9,8 @@ const Phone = () => {
         </h1>
       </div>
       <div className="flex flex-col">
-        <p className="text-[#C3A981]">Phone Call Us</p>
-        <p>+39 399 461 1608</p>
+        <p className="text-[#C3A981] text-lg font-medium">Phone Call Us</p>
+        <p className="text-[#DFE0E0]">+39 399 461 1608</p>
       </div>
     </div>
   );

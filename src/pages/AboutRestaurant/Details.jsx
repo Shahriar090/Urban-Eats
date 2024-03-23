@@ -8,7 +8,7 @@ const Details = () => {
         <div className="details-texts-container">
           <h2 className="details-sub-head ">About Restaurant</h2>
           <h1 className="details-main-head ">
-            5 Star Luxury Restaurant In Chattogram
+            5 Star Luxury Restaurant In Paris
           </h1>
           <p className="details-description-1">
             We see our customers as invited guests to a party, and we are the

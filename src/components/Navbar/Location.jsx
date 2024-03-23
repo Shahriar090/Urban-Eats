@@ -9,8 +9,10 @@ const Location = () => {
         </h1>
       </div>
       <div className="flex flex-col">
-        <p className="text-[#C3A981]">3125 Maxwell Farm Road</p>
-        <p>Roanoke, Portland</p>
+        <p className="text-[#C3A981] text-lg font-medium">
+          3125 Maxwell Farm Road
+        </p>
+        <p className="text-[#DFE0E0]">Roanoke, Portland</p>
       </div>
     </div>
   );

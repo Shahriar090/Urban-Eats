@@ -1,9 +1,9 @@
 @layer base {
   .rev-head {
-    @apply text-3xl text-[#DFE0E0] text-center font-sans;
+    @apply text-2xl lg:text-5xl text-[#DFE0E0] text-center uppercase font-semibold;
   }
   .rev-sub-head {
-    @apply text-lg text-[#C3A981] font-serif text-center italic;
+    @apply text-lg text-[#C3A981] text-center;
   }
   .rev-container {
     @apply shadow-sm shadow-[#C3A981] py-5 px-0 sm:p-8;
@@ -15,15 +15,15 @@
     @apply w-20 h-20 rounded-full ring-2 ring-[#C3A981];
   }
   .rev-text-container {
-    @apply text-center text-lg sm:text-xl font-serif italic space-y-2;
+    @apply text-center  space-y-2;
   }
   .quote-icon {
     @apply flex justify-center;
   }
   .quote-icon-style {
-    @apply text-4xl text-[#C3A981];
+    @apply text-3xl text-[#C3A981];
   }
   .review-texts {
-    @apply max-w-[30ch] sm:max-w-[50ch] mx-auto text-[#DFE0E0];
+    @apply max-w-[30ch] sm:max-w-[50ch] mx-auto text-[#DFE0E0] text-sm sm:text-xl font-medium tracking-wide;
   }
 }

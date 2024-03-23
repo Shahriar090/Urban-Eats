@@ -1,6 +1,6 @@
 @layer base {
   .nav-sm-container {
-    @apply w-full h-auto bg-[#0E1618] flex items-center justify-between px-4;
+    @apply w-full h-16 bg-[#0E1618] flex items-center justify-between px-4;
   }
   .drawer-items {
     @apply menu p-4 w-80 min-h-full bg-[#0E1618] text-[#DFE0E0];
