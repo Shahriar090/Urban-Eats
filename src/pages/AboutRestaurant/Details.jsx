@@ -1,5 +1,6 @@
 import aboutImg from "../../../src/assets/Banner/about-1.jpg";
 import Container from "../../shared/Container";
+import Button from "../../ui/Button";
 
 const Details = () => {
   return (
@@ -21,7 +22,7 @@ const Details = () => {
             their respective experiences in the hospitality industry, the duo
             imagined a place celebrating the South of France’s festive spirit.
           </p>
-          <button className="details-btn">More About Us</button>
+          <Button variant="outline">More About Us</Button>
         </div>
         <div className="about-img w-full lg:w-2/5">
           <picture>

@@ -28,3 +28,25 @@ html {
 /* ::-webkit-scrollbar {
   display: none;
 } */
+
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3;
+    @apply text-[#DFE0E0] bg-[#C3A981];
+    @apply hover:bg-[#DFE0E0] hover:text-[#C3A981];
+    @apply transition-all duration-500;
+  }
+  .btn-outline {
+    @apply px-8 py-3;
+    @apply border border-[#C3A981] text-[#C3A981];
+    @apply hover:bg-[#C3A981] hover:text-[#DFE0E0];
+    @apply transition-all duration-500;
+  }
+  .btn-xs {
+    @apply px-2 py-1;
+    @apply border border-[#C3A981];
+    @apply rounded-full text-[#DFE0E0];
+    @apply hover:bg-[#C3A081];
+    @apply transition-all duration-500;
+  }
+}

@@ -5,6 +5,7 @@ import LocationModal from "./LocationModal";
 import Location from "./Location";
 import Contact from "./Contact";
 import Phone from "./Phone";
+import Button from "../../ui/Button";
 const NavLg = () => {
   return (
     <nav className="bg-[#0E1618] w-full h-auto">
@@ -15,7 +16,7 @@ const NavLg = () => {
         <Phone />
 
         <div className="book-now-button">
-          <button className="booking-btn">Book A Table</button>
+          <Button variant="outline">Book A Table</Button>
         </div>
       </div>
 

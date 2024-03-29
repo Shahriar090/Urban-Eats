@@ -1,6 +1,7 @@
 import bgImg1 from "../../../src/assets/Banner/banner-1.jpg";
 import bgImg2 from "../../../src/assets/Banner/banner-2.jpg";
 import bgImg3 from "../../../src/assets/Banner/banner-3.jpg";
+import Button from "../../ui/Button";
 const Banner = () => {
   return (
     <div className="relative bg-[#0E1618]">
@@ -21,7 +22,7 @@ const Banner = () => {
                 mind.The Brochette Restaurant is ready to prepare it for you
               </p>
               <div>
-                <button className="banner-btn">Discover Menu</button>
+                <Button variant="primary">Discover Menu</Button>
               </div>
             </div>
           </div>
@@ -42,7 +43,7 @@ const Banner = () => {
                 mind.The Brochette Restaurant is ready to prepare it for you
               </p>
               <div>
-                <button className="banner-btn">Discover Menu</button>
+                <Button variant="primary">Discover Menu</Button>
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@ const Banner = () => {
                 mind.The Brochette Restaurant is ready to prepare it for you
               </p>
               <div>
-                <button className="banner-btn">Discover Menu</button>
+                <Button variant="primary">Discover Menu</Button>
               </div>
             </div>
           </div>
@@ -71,14 +72,14 @@ const Banner = () => {
       </div>
       {/* slider buttons */}
       <div className="slider-btn-container">
-        <a href="#item1" className="slider-btn">
-          1
+        <a href="#item1">
+          <Button variant="xs">1</Button>
         </a>
-        <a href="#item2" className="slider-btn">
-          2
+        <a href="#item2">
+          <Button variant="xs">2</Button>
         </a>
-        <a href="#item3" className="slider-btn">
-          3
+        <a href="#item3">
+          <Button variant="xs">3</Button>
         </a>
       </div>
     </div>

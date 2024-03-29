@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../../../shared/Container";
 import EventImages from "./EventImages";
+import Button from "../../../ui/Button";
 
 const EventDetails = () => {
   return (
@@ -15,9 +16,7 @@ const EventDetails = () => {
             rehearsal dinner, we know we can offer you and your guests a truly
             memorable event.
           </p>
-          <button className="event-details-btn">
-            Get Started For Your Event
-          </button>
+          <Button variant="outline"> Get Started For Your Event</Button>
         </div>
         {/* event details with images */}
       </Container>
