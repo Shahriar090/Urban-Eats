@@ -12,10 +12,10 @@
     @apply flex flex-col items-center justify-center gap-3 md:gap-4 lg:gap-6 px-3;
   }
   .banner-sub-heading {
-    @apply text-[#C3A981] text-lg md:text-xl lg:text-2xl font-medium;
+    @apply text-[#C3A981] text-lg md:text-xl lg:text-2xl font-normal italic;
   }
   .banner-heading {
-    @apply text-2xl md:text-4xl lg:text-6xl text-[#DFE0E0] uppercase font-semibold tracking-wider text-center;
+    @apply text-2xl md:text-4xl lg:text-6xl text-[#DFE0E0] uppercase font-medium tracking-wider text-center;
   }
   .banner-description {
     @apply max-w-[50ch] md:max-w-[50ch] lg:max-w-[60ch] text-[#DFE0E0] text-sm lg:text-lg text-center tracking-wider;

@@ -1,6 +1,8 @@
 import React from "react";
 import smLogo from "../../../src/assets/logo-sm.png";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { navOptions } from "./NavOptions";
+import { Link } from "react-router-dom";
 const NavSm = () => {
   return (
     <nav>
@@ -26,15 +28,17 @@ const NavSm = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="drawer-items">
+              <div className="drawer-items">
                 {/* Sidebar content here */}
-                <li>
-                  <a>Sidebar Item 1</a>
-                </li>
-                <li>
-                  <a>Sidebar Item 2</a>
-                </li>
-              </ul>
+
+                <div className="nav-items  p-3 flex flex-col gap-5 text-lg">
+                  {navOptions.map((item, index) => (
+                    <li key={index} className="">
+                      <Link>{item.label}</Link>
+                    </li>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
