@@ -21,7 +21,7 @@ const Modal = ({ isModalOpen, onClose, children }) => {
       <div
         onClick={handleOutsideClose}
         className={cn(
-          "fixed flex items-center justify-center inset-0 z-[999] invisible bg-gray-800/70",
+          "fixed flex items-center justify-start inset-0 z-[999] invisible ml-5",
           {
             visible: isModalOpen,
           }
@@ -30,7 +30,7 @@ const Modal = ({ isModalOpen, onClose, children }) => {
         {/* modal container */}
         <div
           ref={modalContainerRef}
-          className="bg-white w-full max-w-2xl rounded-sm p-2"
+          className="bg-[#0e1618] w-full max-w-2xl rounded-sm p-5"
         >
           {children}
         </div>
@@ -48,14 +48,14 @@ const CloseButton = ({ children }) => {
       {children ? (
         children
       ) : (
-        <IoClose className="text-4xl h-8 w-8 border border-neutral-700 rounded-full p-1" />
+        <IoClose className="text-4xl h-8 w-8 text-[#C3A981] absolute right-0 top-0" />
       )}
     </button>
   );
 };
 
 const Header = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className="relative">{children}</div>;
 };
 
 Modal.CloseButton = CloseButton;
