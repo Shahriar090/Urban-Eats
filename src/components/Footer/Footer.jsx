@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <Container>
       <aside>
-        <div className="footer-content flex items-center justify-between border-t border-[#C3A981] pt-8">
+        <div className="footer-content flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between border-t border-[#C3A981] pt-8">
           <div className="location flex justify-center flex-col items-center gap-3 flex-[1]">
             <h1 className="text-2xl font-medium text-[#C3A981] uppercase">
               We Are Here
@@ -35,9 +35,11 @@ const Footer = () => {
             <h1 className="text-2xl font-medium text-[#C3A981] uppercase">
               Opening Time
             </h1>
-            <p> Mon - Fri: 08:00 am - 09:00pm</p>
-            <p> Sat - Sun: 10:00 am - 11:00pm</p>
-            <p> Holiday: Close</p>
+            <div className="text-center">
+              <p> Mon - Fri: 08:00 am - 09:00pm</p>
+              <p> Sat - Sun: 10:00 am - 11:00pm</p>
+              <p> Holiday: Close</p>
+            </div>
           </div>
         </div>
         <div className="h-[1px] my-6 w-full bg-[#C3A981]"></div>
