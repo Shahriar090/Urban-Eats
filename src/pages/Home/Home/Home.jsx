@@ -4,6 +4,7 @@ import AboutRestaurant from "../../AboutRestaurant/AboutRestaurant";
 import OurServices from "../OurServices/OurServices";
 import EventDetails from "../EventDetails/EventDetails";
 import Reviews from "../../../components/Reviews/Reviews";
+import Footer from "../../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <OurServices />
       <EventDetails />
       <Reviews />
+      <Footer />
     </div>
   );
 };

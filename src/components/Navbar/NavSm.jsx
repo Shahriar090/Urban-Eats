@@ -1,5 +1,5 @@
 import React from "react";
-import smLogo from "../../../src/assets/logo-sm.png";
+import smLogo from "../../../src/assets/Banner/logo-sm.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { navOptions } from "./NavOptions";
 import { Link } from "react-router-dom";
