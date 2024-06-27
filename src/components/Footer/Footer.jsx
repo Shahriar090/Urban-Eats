@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../shared/Container";
-import logo from "../../../src/assets/Banner/logo-sm.png";
+import logo from "../../../src/assets/Banner/logo-ft.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,8 +19,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="about flex justify-center flex-col items-center gap-3 flex-[2]">
-            <img src={logo} alt="Restaurant Logo" className="w-20" />
-            <h1 className="text-2xl font-medium text-[#DFE0E0]">Urban Eats</h1>
+            <img src={logo} alt="Restaurant Logo" className="w-32" />
+
             <p className="max-w-sm text-center text-[#DFE0E0] font-medium">
               distinctive, well-preserved and comfortable space, high-quality
               products, authentic cuisine, food and drinks are done flawlessly.
